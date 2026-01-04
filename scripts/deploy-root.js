@@ -1,4 +1,4 @@
-import { rm, cp } from 'fs/promises';
+import { cp } from 'fs/promises';
 import path from 'path';
 
 const root = process.cwd();

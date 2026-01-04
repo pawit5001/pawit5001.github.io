@@ -4,7 +4,7 @@
     <div class="mb-8">
       <div class="flex flex-wrap justify-between items-baseline">
         <p class="font-semibold">{{ (lang?.value === 'th' || lang === 'th') ? 'Customer Service & Documentation – Internship' : 'Customer Service & Documentation – Internship' }}</p>
-        <span class="text-sm text-gray-600">March 2023 - February 2024</span>
+        <span class="text-sm text-gray-600">{{ (lang?.value === 'th' || lang === 'th') ? 'มีนาคม 2023 - กุมภาพันธ์ 2024' : 'March 2023 - February 2024' }}</span>
       </div>
       <p class="text-sm text-gray-700 mb-1">Laemchabang Inter Trans Co., Ltd.</p>
       <ul class="list-disc pl-6 mt-2 space-y-1">
