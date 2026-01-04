@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "node ./scripts/deploy-docs.js",
+    "build:deploy": "npm run build && npm run deploy"
   },
   "dependencies": {
     "@motionone/vue": "^10.16.4",
