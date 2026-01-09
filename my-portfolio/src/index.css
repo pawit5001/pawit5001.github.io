@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Prompt', 'Sarabun', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@layer base {
+  html {
+    /* sensible default base size; users can scale via browser */
+    font-size: 16px;
+  }
+
+  /* Headings */
+  h1 { @apply text-3xl md:text-4xl font-bold leading-tight; }
+  h2 { @apply text-2xl md:text-3xl font-semibold leading-snug; }
+  h3 { @apply text-xl md:text-2xl font-semibold; }
+
+  /* Paragraphs and links */
+  p, a, li { @apply text-base md:text-lg text-gray-700; }
+
+  /* Smaller meta text */
+  .muted { @apply text-sm text-gray-500; }
+}
