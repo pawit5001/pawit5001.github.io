@@ -10,7 +10,17 @@ const Awards: React.FC<Props> = ({ lang = "en" }) => (
         <div>
           <div>{lang === "th" ? "นักศึกษาผลการเรียนดีเด่น ปีการศึกษา 2567" : "Outstanding Academic Achievement, Academic Year 2024"}</div>
           <div>{lang === "th" ? "คณะวิทยาศาสตร์และเทคโนโลยี สาขาวิทยาการคอมพิวเตอร์" : "Bachelor of Science in Computer Science"}</div>
-          <div>{lang === "th" ? "มหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก" : "Rajamangala University of Technology Tawan-ok"}</div>
+          <div>
+            {lang === "th" ? "มหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก" : "Rajamangala University of Technology Tawan-ok"}
+            <a
+              href="https://www.facebook.com/share/p/1G3pQymtxh/"
+              target="_blank"
+              rel="noopener"
+              className="ml-2 text-blue-600 underline text-sm"
+            >
+              {lang === "th" ? "ดูโพสต์" : "View Post"}
+            </a>
+          </div>
         </div>
         <div className="text-sm text-gray-600">{lang === "th" ? "สิงหาคม 2568" : "August 2025"}</div>
       </li>
@@ -23,8 +33,18 @@ const Awards: React.FC<Props> = ({ lang = "en" }) => (
       </li>
       <li className="flex justify-between items-baseline">
         <div>
-          <div>{lang === "th" ? "รางวัลชนะเลิศ การแข่งขัน Beer Game (บริหารต้นทุน) ระดับจังหวัด" : "1st Place, Beer Game Competition, Chonburi Province"}</div>
-          <div>{lang === "th" ? "การแข่งขันทักษะวิชาชีพแห่งชาติ" : "National Vocational Skills Competition"}</div>
+          <div>{lang === "th" ? "รางวัลชนะเลิศ การแข่งขัน Beer Distribution Game ระดับจังหวัด" : "1st Place, Beer Game Competition, Chonburi Province"}</div>
+          <div>
+            {lang === "th" ? "การแข่งขันทักษะวิชาชีพแห่งชาติ" : "National Vocational Skills Competition"}
+            <a
+              href="http://www2.chainat.ac.th/vecskills/pages/my_cert_college_show_l3.php?y_id=2565&l_id=3&p_id=20&s_id=3&c_id=1320046401&ch_id=1320016201"
+              target="_blank"
+              rel="noopener"
+              className="ml-2 text-blue-600 underline text-sm"
+            >
+              {lang === "th" ? "ดูผลลัพธ์" : "View Result"}
+            </a>
+          </div>
         </div>
         <div className="text-sm text-gray-600">{lang === "th" ? "ตุลาคม 2565" : "October 2022"}</div>
       </li>
