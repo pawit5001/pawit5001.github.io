@@ -103,7 +103,7 @@ const Projects: React.FC<Props> = ({ lang = "en" }) => (
         </li>
         <li>
           {lang === "th"
-            ? "พัฒนาโมเดลโดยใช้ EfficientNetB0 เป็นโครงข่ายหลัก พร้อมเตรียมข้อมูลภาพด้วย OpenCV (ตรวจจับใบหน้า ปรับขนาด และปรับมาตรฐาน)"
+            ? "พัฒนาโมเดลโดยใช้ EfficientNetB0 เป็นโครงข่ายหลัก พร้อมเตรียมข้อมูลภาพด้วย OpenCV (ตรวจจับใบหน้า และปรับขนาด)"
             : "Implemented EfficientNetB0 backbone with TensorFlow/Keras and OpenCV-based preprocessing (face detection, resizing, normalization)"}
         </li>
         <li>
