@@ -45,7 +45,7 @@ const Projects: React.FC<Props> = ({ lang = "en" }) => (
         </li>
         <li>
           {lang === "th"
-            ? "ผสาน BLIP สำหรับสร้างคำบรรยายภาพอัตโนมัติเพื่อให้เข้าใจบริบทก่อนแปลภาษา"
+            ? "ผสาน BLIP สำหรับสร้างคำบรรยายภาพโดยเฉพาะภาพที่มีรายละเอียดหรือบริบทซับซ้อน"
             : "Integrated BLIP image captioning to generate contextual descriptions prior to translation"}
         </li>
         <li>
