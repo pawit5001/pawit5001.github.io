@@ -40,27 +40,27 @@ const Projects: React.FC<Props> = ({ lang = "en" }) => (
       <ul className="list-disc pl-6 mb-2 text-sm text-gray-700">
         <li>
           {lang === "th"
-            ? "ตรวจจับและจำแนกวัตถุในภาพด้วย YOLOv8 เพื่อระบุวัตถุหลายชนิดในภาพอย่างแม่นยำ"
+            ? "พัฒนาระบบตรวจจับและจำแนกวัตถุในภาพด้วย YOLOv8 เพื่อระบุตำแหน่งและประเภทวัตถุได้อย่างแม่นยำ"
             : "Implemented object detection using YOLOv8 to locate and classify multiple objects in images"}
         </li>
         <li>
           {lang === "th"
-            ? "สร้างคำบรรยายภาพอัตโนมัติด้วย BLIP เพื่อรองรับการแปลรูปภาพที่หลากหลายมากยิ่งขึ้น"
+            ? "ผสาน BLIP สำหรับสร้างคำบรรยายภาพอัตโนมัติเพื่อให้เข้าใจบริบทก่อนแปลภาษา"
             : "Integrated BLIP image captioning to generate contextual descriptions prior to translation"}
         </li>
         <li>
           {lang === "th"
-            ? "รองรับการแปลคำบรรยายภาพเป็นภาษาต่าง ๆ ได้พร้อมกันสูงสุด 5 ภาษา"
+            ? "รองรับการแปลคำบรรยายภาพเป็นหลายภาษาได้พร้อมกันสูงสุด 5 ภาษา"
             : "Enabled multi-language translation of image captions, supporting up to 5 languages simultaneously"}
         </li>
         <li>
           {lang === "th"
-            ? "สร้างภาพจากข้อความด้วย Stable Diffusion XL เพื่อเพิ่มความเข้าใจและความน่าสนใจของเนื้อหา"
+            ? "พัฒนาฟีเจอร์สร้างภาพจากข้อความด้วย Stable Diffusion XL"
             : "Implemented text-to-image generation using Stable Diffusion XL"}
         </li>
         <li>
           {lang === "th"
-            ? "บันทึกผลการแปลภาพแบบเรียลไทม์ผ่าน Discord เพื่อการติดตามและตรวจสอบ"
+            ? "พัฒนาระบบบันทึกผลการแปลภาพแบบเรียลไทม์ผ่าน Discord เพื่อการติดตามผล"
             : "Built real-time Discord logging to monitor image translation results"}
         </li>
       </ul>
@@ -103,7 +103,7 @@ const Projects: React.FC<Props> = ({ lang = "en" }) => (
         </li>
         <li>
           {lang === "th"
-            ? "ใช้ EfficientNetB0 เป็นโครงข่ายหลัก พร้อมเตรียมข้อมูลภาพด้วย OpenCV (ตรวจจับใบหน้า ปรับขนาด และปรับมาตรฐาน)"
+            ? "พัฒนาโมเดลโดยใช้ EfficientNetB0 เป็นโครงข่ายหลัก พร้อมเตรียมข้อมูลภาพด้วย OpenCV (ตรวจจับใบหน้า ปรับขนาด และปรับมาตรฐาน)"
             : "Implemented EfficientNetB0 backbone with TensorFlow/Keras and OpenCV-based preprocessing (face detection, resizing, normalization)"}
         </li>
         <li>
@@ -118,7 +118,7 @@ const Projects: React.FC<Props> = ({ lang = "en" }) => (
         </li>
         <li>
           {lang === "th"
-            ? "พัฒนาอินเทอร์เฟซทดลองใช้งานผ่าน Gradio เพื่อให้ผู้ใช้สามารถทดสอบระบบได้ง่าย"
+            ? "พัฒนาอินเทอร์เฟซ Gradio สำหรับสาธิตและทดลองใช้งานโมเดล"
             : "Built an interactive Gradio web interface for model demonstration"}
         </li>
       </ul>
@@ -162,22 +162,22 @@ const Projects: React.FC<Props> = ({ lang = "en" }) => (
 <ul className="list-disc pl-6 mb-2 text-sm text-gray-700">
   <li>
     {lang === "th"
-      ? "เรียกดูสถานที่ท่องเที่ยวยอดนิยม พร้อมรายละเอียดและแกลเลอรีรูปภาพ"
+      ? "เรียกดูสถานที่ท่องเที่ยวยอดนิยม พร้อมรายละเอียดและแกลเลอรีภาพถ่าย"
       : "Browse popular travel destinations with detailed information and image galleries"}
   </li>
   <li>
     {lang === "th"
-      ? "บันทึกสถานที่ที่สนใจด้วยฟีเจอร์ Wishlist เพื่อการเข้าถึงที่รวดเร็ว"
+      ? "พัฒนาฟีเจอร์ Wishlist สำหรับบันทึกสถานที่ที่สนใจ"
       : "Implemented a wishlist feature to save favorite destinations"}
   </li>
   <li>
     {lang === "th"
-      ? "ค้นหาและกรองสถานที่ท่องเที่ยวตามหมวดหมู่ได้อย่างสะดวก"
+      ? "รองรับการค้นหาและกรองสถานที่ท่องเที่ยวตามหมวดหมู่"
       : "Enabled search and filtering of destinations by category"}
   </li>
   <li>
     {lang === "th"
-      ? "รองรับการใช้งานภาษาไทยอย่างสมบูรณ์แบบ"
+      ? "รองรับการใช้งานภาษาไทยเต็มรูปแบบ"
       : "Provided full Thai language localization"}
   </li>
 </ul>
@@ -213,22 +213,22 @@ const Projects: React.FC<Props> = ({ lang = "en" }) => (
       <ul className="list-disc pl-6 mb-2 text-sm text-gray-700">
         <li>
           {lang === "th"
-            ? "ระบบสมัครสมาชิกและเข้าสู่ระบบ พร้อมแยกสิทธิ์การใช้งานระหว่างผู้ใช้ทั่วไปและผู้ดูแลระบบ"
+            ? "พัฒนาระบบสมัครสมาชิกและเข้าสู่ระบบ พร้อมแยกสิทธิ์การใช้งานระหว่างผู้ใช้ทั่วไปและผู้ดูแลระบบ"
             : "Implemented user authentication with role-based access (student/admin)"}
         </li>
         <li>
           {lang === "th"
-            ? "เลือกดูอุปกรณ์ เพิ่มลงตะกร้า และทำรายการยืมได้อย่างสะดวก"
+            ? "พัฒนาฟีเจอร์เลือกดูอุปกรณ์ เพิ่มลงตะกร้า และทำรายการยืมได้อย่างสะดวก"
             : "Enabled users to browse equipment, add items to cart, and submit borrowing requests"}
         </li>
         <li>
           {lang === "th"
-            ? "ระบบจัดการอุปกรณ์ หมวดหมู่ ผู้รับผิดชอบ และการคืน สำหรับผู้ดูแลระบบ"
+            ? "พัฒนาระบบจัดการอุปกรณ์ หมวดหมู่ ผู้รับผิดชอบ และการคืน สำหรับผู้ดูแลระบบ"
             : "Developed admin management features for categories, equipment inventory, responsible staff, and returns"}
         </li>
         <li>
           {lang === "th"
-            ? "แสดงประวัติการยืม ใบเสร็จ และสถิติการใช้งานผ่านแดชบอร์ด"
+            ? "พัฒนาฟีเจอร์แสดงประวัติการยืม ใบเสร็จ และสถิติการใช้งานผ่านแดชบอร์ด"
             : "Provided booking history, receipt printing, and dashboard statistics"}
         </li>
         <li>
