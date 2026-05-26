@@ -12,7 +12,7 @@
       <span>|</span>
       <a href="https://github.com/pawit5001" target="_blank" rel="noopener" class="hover:underline">GitHub</a>
       <span>|</span>
-      <a href="mailto:pawit.wee@hotmail.com" class="hover:underline">pawit.wee@hotmail.com</a>
+      <a href="mailto:p.weerakoop@gmail.com" class="hover:underline">p.weerakoop@gmail.com</a>
     </div>
   </section>
 </template>
