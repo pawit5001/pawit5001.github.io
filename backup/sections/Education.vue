@@ -12,7 +12,7 @@
         </span>
       </div>
       <p>{{ lang === 'th' ? 'มหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก' : 'Rajamangala University of Technology Tawan-ok, Thailand' }}</p>
-      <p class="text-sm text-gray-600">{{ lang === 'th' ? 'เกรดเฉลี่ย: 3.76/4.00' : 'GPA: 3.76/4.00' }}</p>
+      <p class="text-sm text-gray-600">{{ lang === 'th' ? 'เกรดเฉลี่ย: 3.79/4.00' : 'GPA: 3.79/4.00' }}</p>
     </div>
     <!-- High Vocational -->
     <div class="mb-8">
