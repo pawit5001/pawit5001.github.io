@@ -5,7 +5,7 @@ type Props = { lang?: string };
 const Hero: React.FC<Props> = ({ lang = "en" }) => {
   const [copied, setCopied] = useState(false);
   const [showEmail, setShowEmail] = useState(false);
-  const email = "pawit.wee@hotmail.com";
+  const email = "p.weerakoop@gmail.com";
 
   useEffect(() => {
     let t: number | undefined;
