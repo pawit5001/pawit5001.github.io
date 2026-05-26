@@ -12,7 +12,7 @@ const Education: React.FC<Props> = ({ lang = "en" }) => (
         <span className="text-sm text-gray-600">{lang === "th" ? "กรกฎาคม 2024 - ปัจจุบัน" : "July 2024 - Present"}</span>
       </div>
       <p>{lang === "th" ? "มหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก" : "Rajamangala University of Technology Tawan-ok, Thailand"}</p>
-      <p className="text-sm text-gray-600">{lang === "th" ? "เกรดเฉลี่ย: 3.76/4.00" : "GPA: 3.76/4.00"}</p>
+      <p className="text-sm text-gray-600">{lang === "th" ? "เกรดเฉลี่ย: 3.79/4.00" : "GPA: 3.79/4.00"}</p>
     </div>
 
     <div className="mb-8">
